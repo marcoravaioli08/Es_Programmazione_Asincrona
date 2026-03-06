@@ -16,9 +16,18 @@ namespace GeneraParole
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        private string lettere = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        private string parolaCorrente = "";
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void BtnSorteggia_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
