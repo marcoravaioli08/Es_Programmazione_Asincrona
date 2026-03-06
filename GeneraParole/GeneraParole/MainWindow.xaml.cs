@@ -19,6 +19,7 @@ namespace GeneraParole
 
         private string lettere = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         private string parolaCorrente = "";
+        private Random rnd = new Random();
 
         public MainWindow()
         {
